@@ -1,0 +1,13 @@
+interface:
+  display_name: "Real Estate, React, SEO, and Marketing"
+  short_description: "Build responsive real estate pages with React and SEO"
+  default_prompt: "Use $react-seo-marketing to build this real estate feature for phones, laptops, and large screens with React best practices, SEO, future marketing support, and Context7 documentation."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "context7"
+      description: "Current library documentation and code examples"
+      transport: "streamable_http"
+      url: "https://mcp.context7.com/mcp"
+policy:
+  allow_implicit_invocation: true
