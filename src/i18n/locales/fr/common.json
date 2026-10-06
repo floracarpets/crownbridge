@@ -1,0 +1,16 @@
+{
+  "navigation": {
+    "language": "Langue",
+    "skipToContent": "Aller au contenu",
+    "home": "Accueil Crownbridge"
+  },
+  "home": {
+    "eyebrow": "Crownbridge · Immobilier",
+    "title": "Trouvez un endroit où vous sentir chez vous.",
+    "description": "Votre projet immobilier commence ici."
+  },
+  "meta": {
+    "title": "Crownbridge | Immobilier",
+    "description": "Commencez votre projet immobilier avec Crownbridge."
+  }
+}
