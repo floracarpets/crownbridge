@@ -2,15 +2,181 @@
   "navigation": {
     "language": "Dil",
     "skipToContent": "İçeriğe geç",
-    "home": "Crownbridge ana sayfa"
+    "home": "Crownbridge ana sayfa",
+    "primary": "Ana menü",
+    "menu": "Menü",
+    "close": "Kapat"
   },
-  "home": {
-    "eyebrow": "Crownbridge · Gayrimenkul",
-    "title": "Yuva diyeceğiniz bir yer bulun.",
-    "description": "Gayrimenkul yolculuğunuz burada başlıyor."
+  "nav": {
+    "home": "Ana sayfa",
+    "about": "Hakkımızda",
+    "services": "Hizmetler",
+    "properties": "Gayrimenkuller",
+    "why": "Neden Crownbridge",
+    "contact": "İletişim",
+    "process": "Yolculuğunuz"
+  },
+  "hero": {
+    "eyebrow": "CROWNBRIDGE REAL ESTATE · DUBAİ",
+    "title": "Yeni bir bakış açısı.",
+    "accent": "Kendinizi evinizde hissedin.",
+    "description": "Yeni başlangıcınız için özenli gayrimenkul rehberliği. Crownbridge ile evleri keşfedin, fırsatları değerlendirin ve bir sonraki adımınızı atın.",
+    "explore": "Gayrimenkulleri keşfedin",
+    "talk": "Konuşalım",
+    "scroll": "Crownbridge’i keşfedin",
+    "caption": "Mimari. Yaşam. Olasılıklar."
+  },
+  "intro": {
+    "title": "Yeni başlangıcınız burada.",
+    "text": "Alın, satın, kiralayın veya yeni fırsatları keşfedin.",
+    "link": "Yolunuzu bulun"
+  },
+  "about": {
+    "eyebrow": "BİZ KİMİZ",
+    "title": "Yeni başlangıçlar.",
+    "accent": "Kalıcı bağlar.",
+    "text": "Crownbridge, Dubai’de yeni kurulmuş bir gayrimenkul şirketidir. Basit bir düşünceyle yola çıktık: gayrimenkul yolculuğunuz kişisel, anlaşılır ve özenli olmalı.",
+    "text2": "İster ev arayın, ister satış planlayın, ister yeni bir projeyi inceleyin; önce önceliklerinizi dinler, sonraki adımı anlamanıza yardımcı oluruz.",
+    "imageLabel": "Bir ev, bir adresten fazlasıdır.",
+    "value1": "Önce insan",
+    "value2": "Açık iletişim",
+    "value3": "Özenli rehberlik",
+    "link": "Yaklaşımımızı tanıyın"
+  },
+  "services": {
+    "eyebrow": "NELER YAPIYORUZ",
+    "title": "Tek bir ortak. Daha çok olasılık.",
+    "description": "İlk sorunuzdan sonraki adımınıza kadar, gayrimenkulü birlikte daha anlaşılır kılalım.",
+    "link": "Planlarınızı konuşalım",
+    "buy": {
+      "title": "Gayrimenkul alın",
+      "text": "Yaşam tarzınıza, tercih ettiğiniz konuma ve bütçenize uygun evleri keşfedin. Seçenekleri anlamanıza yardımcı oluruz."
+    },
+    "sell": {
+      "title": "Gayrimenkulünüzü satın",
+      "text": "Hedeflerinizi, evinizin sunumunu ve gayrimenkulünüzü satışa çıkarmanın adımlarını konuşalım."
+    },
+    "rent": {
+      "title": "Kiralık evinizi bulun",
+      "text": "Günlük yaşamınıza uygun bir alan keşfedin. Aramanızda ve sonraki adımlarda size rehberlik edelim."
+    },
+    "offplan": {
+      "title": "Yeni projeleri keşfedin",
+      "text": "Yeni projeleri inceleyin, detayları karşılaştırın ve planlarınıza uygun fırsatları konuşalım."
+    }
+  },
+  "properties": {
+    "eyebrow": "ALANLAR VE OLASILIKLAR",
+    "title": "Yeni adresinizi hayal edin.",
+    "link": "Ne aradığınızı anlatın",
+    "notice": "Bunlar mevcut ilanlar değil, örnek gayrimenkul konseptleridir. Görseller ve örnek özellikler görüşebileceğimiz alanları gösterir; gerçek uygunluk ve fiyatlar teyit edilmelidir.",
+    "illustration": "Örnek konsept",
+    "details": "Detayları keşfedin",
+    "type": "Gayrimenkul türü",
+    "bedrooms": "Örnek yatak odası sayısı",
+    "area": "Örnek alan",
+    "status": "Uygunluk",
+    "exampleOnly": "Yalnızca örnek — satış ilanı değildir",
+    "enquire": "Benzer gayrimenkulleri konuşalım",
+    "types": {
+      "apartment": "Daire",
+      "villa": "Villa",
+      "offplan": "Yeni proje"
+    },
+    "residence": {
+      "category": "ÇAĞDAŞ YAŞAM",
+      "title": "Size ait olacak bir alan.",
+      "text": "Aydınlık iç mekanlar ve özenle düşünülmüş yaşam alanları.",
+      "alt": "Örnek modern daire iç mekanı"
+    },
+    "villa": {
+      "category": "ÖZEL YAŞAM ALANLARI",
+      "title": "Yaşamak için daha fazla alan.",
+      "text": "Bir araya gelmek, dinlenmek ve her günün tadını çıkarmak için.",
+      "alt": "Yüzme havuzlu örnek modern villa"
+    },
+    "offplan": {
+      "category": "YENİ BAKIŞ AÇILARI",
+      "title": "Yeni bir geleceğe bakın.",
+      "text": "Geleceğin yaşam alanlarının olanaklarını keşfedin.",
+      "alt": "Yeni proje fırsatlarını temsil eden Dubai silüeti"
+    }
+  },
+  "why": {
+    "eyebrow": "NEDEN CROWNBRIDGE",
+    "title": "Yeni bir yaklaşım.",
+    "accent": "Önce sizin öncelikleriniz.",
+    "description": "Yeni bir şirket olarak ilişkilerimizi her görüşmede özenle kuruyoruz. Sizinle de bu yaklaşımla tanışmak istiyoruz.",
+    "link": "Bir görüşme başlatın",
+    "personal": {
+      "title": "Kişisel bir başlangıç",
+      "text": "Bir gayrimenkulü konuşmadan önce sizin için neyin önemli olduğunu anlamaya zaman ayırırız."
+    },
+    "clarity": {
+      "title": "Her adımda açıklık",
+      "text": "Seçenekleriniz, detaylar ve sonraki adımlar hakkında anlaşılır görüşmeler."
+    },
+    "communication": {
+      "title": "Sizin dilinizde iletişim",
+      "text": "Sitemizi İngilizce, Türkçe veya Fransızca keşfedin. Nasıl iletişim kurmak istediğinizi bize söyleyin."
+    }
+  },
+  "process": {
+    "eyebrow": "YOLCULUĞUNUZ",
+    "title": "İyi başlangıçlar bir görüşmeyle başlar.",
+    "listen": {
+      "title": "Dinliyoruz",
+      "text": "Planlarınızı, önceliklerinizi ve aklınızdaki yaşam alanını bize anlatın."
+    },
+    "explore": {
+      "title": "Keşfediyoruz",
+      "text": "Seçeneklerinizi ve sizin için önemli detayları birlikte inceliyoruz."
+    },
+    "move": {
+      "title": "İleriye adım atıyorsunuz",
+      "text": "Önünüzdeki yolu anlayarak bir sonraki adımınızı atın."
+    }
+  },
+  "contact": {
+    "eyebrow": "İLETİŞİME GEÇELİM",
+    "title": "Bir sonraki adımınız.",
+    "accent": "Birlikte konuşalım.",
+    "description": "Yeni bir ev, yeni bir fırsat veya sadece bir soru. Aklınızdakini bize anlatın.",
+    "name": "Ad soyad *",
+    "email": "E-posta adresi *",
+    "phone": "Telefon numarası (isteğe bağlı)",
+    "phoneLabel": "Telefon",
+    "interest": "İlgilendiğim hizmet",
+    "message": "Mesajınız *",
+    "placeholder": "Planlarınızdan biraz bahsedin…",
+    "address": "Konumumuz",
+    "emailPending": "E-posta bilgileri yakında",
+    "phonePending": "+971 00 000 0000 · Örnek numara",
+    "addressPending": "Dubai, Birleşik Arap Emirlikleri · Ofis adresi teyit edilecek",
+    "emailNote": "Bu form e-posta uygulamanızda bir taslak açar. Taslağı kontrol edip oradan gönderin.",
+    "pendingNote": "E-posta iletişimimiz yakında hazır olacak.",
+    "send": "E-posta taslağı hazırlayın",
+    "prepared": "Taslağınız e-posta uygulamanızda hazır. Talebinizi tamamlamak için oradan gönderin.",
+    "emailLabel": "E-posta"
+  },
+  "footer": {
+    "description": "Gayrimenkule yeni bir bakış. Yeni başlangıcınıza kişisel bir yaklaşım.",
+    "explore": "Keşfedin",
+    "navigation": "Alt menü",
+    "services": "Hizmetlerimiz",
+    "connect": "İletişimde kalın",
+    "instagram": "Instagram",
+    "linkedin": "LinkedIn",
+    "facebook": "Facebook",
+    "socialPending": "Sosyal medya profilleri yakında.",
+    "rights": "Tüm hakları saklıdır.",
+    "top": "Başa dön"
+  },
+  "images": {
+    "interior": "Açık renkli mobilyalarla döşenmiş aydınlık modern salon"
   },
   "meta": {
-    "title": "Crownbridge | Gayrimenkul",
-    "description": "Gayrimenkul yolculuğunuza Crownbridge ile başlayın."
+    "title": "Crownbridge Real Estate | Dubai’de yeni başlangıcınız",
+    "description": "Dubai’de yeni kurulmuş Crownbridge gayrimenkul şirketini tanıyın. Alım, satım, kiralama ve yeni projeler için yaklaşımımızı keşfedin. İletişime geçin."
   }
 }

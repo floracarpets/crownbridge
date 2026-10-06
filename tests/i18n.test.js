@@ -48,5 +48,5 @@ test('i18next uses English for missing interface translations', async () => {
     lng: 'tr', fallbackLng: 'en', defaultNS: 'common',
     resources: { en: resources.en, tr: { common: {} } },
   });
-  assert.equal(instance.t('home.title'), resources.en.common.home.title);
+  assert.equal(instance.t('hero.title'), resources.en.common.hero.title);
 });

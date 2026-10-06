@@ -2,15 +2,181 @@
   "navigation": {
     "language": "Language",
     "skipToContent": "Skip to content",
-    "home": "Crownbridge home"
+    "home": "Crownbridge home",
+    "primary": "Main navigation",
+    "menu": "Menu",
+    "close": "Close"
   },
-  "home": {
-    "eyebrow": "Crownbridge · Real estate",
-    "title": "Find a place to call home.",
-    "description": "Your property journey starts here."
+  "nav": {
+    "home": "Home",
+    "about": "About us",
+    "services": "Services",
+    "properties": "Properties",
+    "why": "Why Crownbridge",
+    "contact": "Contact",
+    "process": "Your journey"
+  },
+  "hero": {
+    "eyebrow": "CROWNBRIDGE REAL ESTATE · DUBAI",
+    "title": "A new perspective.",
+    "accent": "A place to belong.",
+    "description": "Thoughtful property guidance for your next chapter. Discover homes, explore opportunities, and find your way forward with Crownbridge.",
+    "explore": "Explore properties",
+    "talk": "Let’s talk",
+    "scroll": "Discover Crownbridge",
+    "caption": "Architecture. Lifestyle. Possibility."
+  },
+  "intro": {
+    "title": "Your next chapter starts here.",
+    "text": "Buying, selling, renting, or exploring what comes next.",
+    "link": "Find your direction"
+  },
+  "about": {
+    "eyebrow": "WHO WE ARE",
+    "title": "New beginnings.",
+    "accent": "Lasting connections.",
+    "text": "Crownbridge is a newly established real estate company in Dubai, built around a simple idea: your property journey should feel personal, clear, and considered.",
+    "text2": "Whether you are looking for a home, planning to sell, or exploring a new development, we start with your priorities and help you understand the next step.",
+    "imageLabel": "A home is more than an address.",
+    "value1": "People first",
+    "value2": "Clear communication",
+    "value3": "Thoughtful guidance",
+    "link": "Get to know our approach"
+  },
+  "services": {
+    "eyebrow": "WHAT WE DO",
+    "title": "One partner. More possibilities.",
+    "description": "From your first question to your next move, let’s make property feel simpler.",
+    "link": "Let’s discuss your plans",
+    "buy": {
+      "title": "Buy a property",
+      "text": "Explore homes that fit your lifestyle, preferred location, and budget. We help you make sense of the options."
+    },
+    "sell": {
+      "title": "Sell your property",
+      "text": "Talk through your goals, property presentation, and the steps involved in bringing your home to market."
+    },
+    "rent": {
+      "title": "Find your next rental",
+      "text": "Discover a space that suits your everyday life, with guidance on your search and the next steps."
+    },
+    "offplan": {
+      "title": "Explore off-plan",
+      "text": "Understand new developments, compare the details, and discuss opportunities that match your plans."
+    }
+  },
+  "properties": {
+    "eyebrow": "SPACES & POSSIBILITIES",
+    "title": "Imagine your next address.",
+    "link": "Tell us what you’re looking for",
+    "notice": "Illustrative property concepts, not available listings. Images and sample specifications show the kinds of spaces we can discuss; actual availability and prices require confirmation.",
+    "illustration": "Illustrative concept",
+    "details": "Explore the details",
+    "type": "Property type",
+    "bedrooms": "Sample bedrooms",
+    "area": "Sample area",
+    "status": "Availability",
+    "exampleOnly": "Example only — not listed for sale",
+    "enquire": "Discuss similar properties",
+    "types": {
+      "apartment": "Apartment",
+      "villa": "Villa",
+      "offplan": "New development"
+    },
+    "residence": {
+      "category": "CONTEMPORARY LIVING",
+      "title": "Room to make it yours.",
+      "text": "Light-filled interiors and a considered sense of space.",
+      "alt": "Illustrative contemporary apartment interior"
+    },
+    "villa": {
+      "category": "PRIVATE RETREATS",
+      "title": "A little more room to live.",
+      "text": "Space to gather, unwind, and enjoy the everyday.",
+      "alt": "Illustrative modern villa with a swimming pool"
+    },
+    "offplan": {
+      "category": "NEW PERSPECTIVES",
+      "title": "Look ahead to something new.",
+      "text": "Explore the possibilities of tomorrow’s communities.",
+      "alt": "Dubai skyline illustrating new development opportunities"
+    }
+  },
+  "why": {
+    "eyebrow": "WHY CROWNBRIDGE",
+    "title": "A fresh approach.",
+    "accent": "Your priorities, first.",
+    "description": "As a new company, we are building our relationships one conversation at a time. Here is the approach we bring to yours.",
+    "link": "Start a conversation",
+    "personal": {
+      "title": "A genuinely personal start",
+      "text": "We take the time to understand what matters to you before discussing a property."
+    },
+    "clarity": {
+      "title": "Clarity at every step",
+      "text": "Straightforward conversations about your options, the details, and what needs to happen next."
+    },
+    "communication": {
+      "title": "A conversation in your language",
+      "text": "Explore our website in English, Turkish, or French, and tell us how you prefer to communicate."
+    }
+  },
+  "process": {
+    "eyebrow": "YOUR JOURNEY",
+    "title": "Good moves begin with a conversation.",
+    "listen": {
+      "title": "We listen",
+      "text": "Tell us about your plans, priorities, and the kind of place you have in mind."
+    },
+    "explore": {
+      "title": "We explore",
+      "text": "Together, we look at your options and the details that matter most."
+    },
+    "move": {
+      "title": "You move forward",
+      "text": "Take your next step with a clear understanding of the path ahead."
+    }
+  },
+  "contact": {
+    "eyebrow": "LET’S CONNECT",
+    "title": "Your next move.",
+    "accent": "Let’s talk about it.",
+    "description": "A new home, a fresh opportunity, or just a question. Tell us what you have in mind.",
+    "name": "Full name *",
+    "email": "Email address *",
+    "phone": "Phone number (optional)",
+    "phoneLabel": "Phone",
+    "interest": "I’m interested in",
+    "message": "Your message *",
+    "placeholder": "Tell us a little about your plans…",
+    "address": "Our location",
+    "emailPending": "Email details coming soon",
+    "phonePending": "+971 00 000 0000 · Example number",
+    "addressPending": "Dubai, United Arab Emirates · Office address to be confirmed",
+    "emailNote": "This opens your email app with your enquiry. Review the draft and send it from there.",
+    "pendingNote": "Our email contact will be available soon.",
+    "send": "Prepare email enquiry",
+    "prepared": "Your email draft is ready in your email app. Please send it there to complete your enquiry.",
+    "emailLabel": "Email"
+  },
+  "footer": {
+    "description": "A fresh perspective on real estate. A personal approach to your next chapter.",
+    "explore": "Explore",
+    "navigation": "Footer navigation",
+    "services": "Our services",
+    "connect": "Stay connected",
+    "instagram": "Instagram",
+    "linkedin": "LinkedIn",
+    "facebook": "Facebook",
+    "socialPending": "Social profiles coming soon.",
+    "rights": "All rights reserved.",
+    "top": "Back to top"
+  },
+  "images": {
+    "interior": "Bright contemporary living room with neutral furnishings"
   },
   "meta": {
-    "title": "Crownbridge | Real estate",
-    "description": "Start your property journey with Crownbridge."
+    "title": "Crownbridge Real Estate | Your next chapter in Dubai",
+    "description": "Meet Crownbridge, a newly established Dubai real estate company. Explore our approach to buying, selling, renting, and off-plan properties. Get in touch."
   }
 }

@@ -2,15 +2,181 @@
   "navigation": {
     "language": "Langue",
     "skipToContent": "Aller au contenu",
-    "home": "Accueil Crownbridge"
+    "home": "Accueil Crownbridge",
+    "primary": "Navigation principale",
+    "menu": "Menu",
+    "close": "Fermer"
   },
-  "home": {
-    "eyebrow": "Crownbridge · Immobilier",
-    "title": "Trouvez un endroit où vous sentir chez vous.",
-    "description": "Votre projet immobilier commence ici."
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "services": "Services",
+    "properties": "Biens",
+    "why": "Pourquoi Crownbridge",
+    "contact": "Contact",
+    "process": "Votre parcours"
+  },
+  "hero": {
+    "eyebrow": "CROWNBRIDGE REAL ESTATE · DUBAÏ",
+    "title": "Une nouvelle perspective.",
+    "accent": "Un lieu où se sentir chez soi.",
+    "description": "Un accompagnement immobilier attentif pour votre prochain chapitre. Découvrez des lieux de vie et explorez de nouvelles possibilités avec Crownbridge.",
+    "explore": "Découvrir les biens",
+    "talk": "Parlons de votre projet",
+    "scroll": "Découvrir Crownbridge",
+    "caption": "Architecture. Art de vivre. Possibilités."
+  },
+  "intro": {
+    "title": "Votre prochain chapitre commence ici.",
+    "text": "Acheter, vendre, louer ou explorer de nouvelles possibilités.",
+    "link": "Trouvez votre voie"
+  },
+  "about": {
+    "eyebrow": "QUI SOMMES-NOUS",
+    "title": "De nouveaux débuts.",
+    "accent": "Des liens durables.",
+    "text": "Crownbridge est une société immobilière récemment créée à Dubaï, autour d’une idée simple : votre parcours immobilier doit être personnel, clair et attentif.",
+    "text2": "Que vous recherchiez un logement, envisagiez une vente ou exploriez un nouveau programme, nous partons de vos priorités pour vous aider à comprendre la prochaine étape.",
+    "imageLabel": "Un chez-soi est plus qu’une adresse.",
+    "value1": "L’humain d’abord",
+    "value2": "Une communication claire",
+    "value3": "Un accompagnement attentif",
+    "link": "Découvrez notre approche"
+  },
+  "services": {
+    "eyebrow": "NOS SERVICES",
+    "title": "Un partenaire. Plus de possibilités.",
+    "description": "De votre première question à votre prochain projet, rendons l’immobilier plus simple ensemble.",
+    "link": "Parlons de vos projets",
+    "buy": {
+      "title": "Acheter un bien",
+      "text": "Explorez des logements adaptés à votre mode de vie, votre localisation et votre budget. Nous vous aidons à comprendre les options."
+    },
+    "sell": {
+      "title": "Vendre votre bien",
+      "text": "Discutons de vos objectifs, de la présentation de votre bien et des étapes de sa mise en vente."
+    },
+    "rent": {
+      "title": "Trouver une location",
+      "text": "Découvrez un espace adapté à votre quotidien, avec un accompagnement dans votre recherche et les prochaines étapes."
+    },
+    "offplan": {
+      "title": "Explorer le neuf",
+      "text": "Découvrez les nouveaux programmes, comparez les détails et discutons des possibilités adaptées à vos projets."
+    }
+  },
+  "properties": {
+    "eyebrow": "ESPACES ET POSSIBILITÉS",
+    "title": "Imaginez votre prochaine adresse.",
+    "link": "Dites-nous ce que vous recherchez",
+    "notice": "Concepts immobiliers illustratifs, sans annonces disponibles. Les photos et caractéristiques d’exemple illustrent les espaces dont nous pouvons discuter ; disponibilités et prix réels restent à confirmer.",
+    "illustration": "Concept illustratif",
+    "details": "Découvrir les détails",
+    "type": "Type de bien",
+    "bedrooms": "Chambres (exemple)",
+    "area": "Surface (exemple)",
+    "status": "Disponibilité",
+    "exampleOnly": "Exemple uniquement — non proposé à la vente",
+    "enquire": "Discutons de biens similaires",
+    "types": {
+      "apartment": "Appartement",
+      "villa": "Villa",
+      "offplan": "Programme neuf"
+    },
+    "residence": {
+      "category": "VIE CONTEMPORAINE",
+      "title": "Un espace à faire vôtre.",
+      "text": "Des intérieurs lumineux et des espaces pensés avec soin.",
+      "alt": "Intérieur contemporain d’appartement à titre illustratif"
+    },
+    "villa": {
+      "category": "REFUGES PRIVÉS",
+      "title": "Plus d’espace pour vivre.",
+      "text": "Un lieu pour se retrouver, se détendre et profiter du quotidien.",
+      "alt": "Villa moderne avec piscine à titre illustratif"
+    },
+    "offplan": {
+      "category": "NOUVELLES PERSPECTIVES",
+      "title": "Envisagez un nouvel horizon.",
+      "text": "Explorez les possibilités des quartiers de demain.",
+      "alt": "Vue de Dubaï illustrant de nouveaux programmes immobiliers"
+    }
+  },
+  "why": {
+    "eyebrow": "POURQUOI CROWNBRIDGE",
+    "title": "Une approche nouvelle.",
+    "accent": "Vos priorités, d’abord.",
+    "description": "En tant que nouvelle société, nous construisons nos relations une conversation à la fois. Voici l’approche que nous souhaitons partager avec vous.",
+    "link": "Commençons une conversation",
+    "personal": {
+      "title": "Un départ personnel",
+      "text": "Nous prenons le temps de comprendre ce qui compte pour vous avant de discuter d’un bien."
+    },
+    "clarity": {
+      "title": "La clarté à chaque étape",
+      "text": "Des échanges simples sur vos options, les détails et les prochaines étapes."
+    },
+    "communication": {
+      "title": "Un échange dans votre langue",
+      "text": "Explorez notre site en anglais, en turc ou en français, et indiquez-nous comment vous préférez communiquer."
+    }
+  },
+  "process": {
+    "eyebrow": "VOTRE PARCOURS",
+    "title": "Un beau projet commence par un échange.",
+    "listen": {
+      "title": "Nous vous écoutons",
+      "text": "Parlez-nous de vos projets, de vos priorités et du lieu que vous imaginez."
+    },
+    "explore": {
+      "title": "Nous explorons",
+      "text": "Ensemble, examinons vos options et les détails qui comptent le plus."
+    },
+    "move": {
+      "title": "Vous avancez",
+      "text": "Passez à la prochaine étape avec une vision claire du chemin à suivre."
+    }
+  },
+  "contact": {
+    "eyebrow": "ÉCHANGEONS",
+    "title": "Votre prochain projet.",
+    "accent": "Parlons-en.",
+    "description": "Un nouveau logement, une nouvelle possibilité ou simplement une question. Dites-nous ce que vous avez en tête.",
+    "name": "Nom complet *",
+    "email": "Adresse e-mail *",
+    "phone": "Téléphone (facultatif)",
+    "phoneLabel": "Téléphone",
+    "interest": "Je m’intéresse à",
+    "message": "Votre message *",
+    "placeholder": "Parlez-nous un peu de votre projet…",
+    "address": "Notre localisation",
+    "emailPending": "Adresse e-mail bientôt disponible",
+    "phonePending": "+971 00 000 0000 · Numéro d’exemple",
+    "addressPending": "Dubaï, Émirats arabes unis · Adresse du bureau à confirmer",
+    "emailNote": "Ce formulaire ouvre un brouillon dans votre application e-mail. Vérifiez-le puis envoyez-le depuis cette application.",
+    "pendingNote": "Notre contact e-mail sera bientôt disponible.",
+    "send": "Préparer un e-mail",
+    "prepared": "Votre brouillon est prêt dans votre application e-mail. Envoyez-le depuis cette application pour terminer votre demande.",
+    "emailLabel": "E-mail"
+  },
+  "footer": {
+    "description": "Une nouvelle perspective sur l’immobilier. Une approche personnelle pour votre prochain chapitre.",
+    "explore": "Explorer",
+    "navigation": "Navigation du pied de page",
+    "services": "Nos services",
+    "connect": "Restons en contact",
+    "instagram": "Instagram",
+    "linkedin": "LinkedIn",
+    "facebook": "Facebook",
+    "socialPending": "Profils sociaux bientôt disponibles.",
+    "rights": "Tous droits réservés.",
+    "top": "Retour en haut"
+  },
+  "images": {
+    "interior": "Salon contemporain lumineux aux meubles de couleur neutre"
   },
   "meta": {
-    "title": "Crownbridge | Immobilier",
-    "description": "Commencez votre projet immobilier avec Crownbridge."
+    "title": "Crownbridge Real Estate | Votre prochain chapitre à Dubaï",
+    "description": "Découvrez Crownbridge, une nouvelle société immobilière à Dubaï. Achat, vente, location et programmes neufs : explorez notre approche et contactez-nous."
   }
 }
