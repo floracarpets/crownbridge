@@ -8,12 +8,12 @@ export default function Footer() {
   const { t } = useTranslation();
 
   return (
-    <footer className="bg-[#111411] pt-16 text-[#d4d6d0] [&_h2]:mt-2 [&_h2]:mb-5 [&_h2]:font-sans [&_h2]:text-[0.75rem] [&_h2]:font-medium [&_h2]:text-white [&_a:hover]:text-[#dbb982] [&_address]:mb-[14px] [&_address]:text-[0.74rem] [&_address]:leading-[1.8] [&_address]:text-[#a6ab9f] [&_address]:not-italic">
+    <footer className="bg-[#111411] pt-16 text-[#d4d6d0] [&_h2]:mt-2 [&_h2]:mb-5 [&_h2]:font-sans [&_h2]:text-[0.75rem] [&_h2]:font-medium [&_h2]:text-white [&_a:not([hreflang]):hover]:text-[#dbb982] [&_address]:mb-[14px] [&_address]:text-[0.74rem] [&_address]:leading-[1.8] [&_address]:text-[#a6ab9f] [&_address]:not-italic">
       <div className="mx-auto w-[calc(100%-40px)] max-w-[1280px] tablet:w-[calc(100%-64px)] desktop:w-[calc(100%-96px)] grid grid-cols-2 gap-x-5 gap-y-[30px] pb-[50px] sm:gap-10 desktop:grid-cols-[1.4fr_0.75fr_0.9fr_1.2fr] desktop:gap-[50px] max-sm:[&>div:last-child]:col-span-full [&>div:last-child>a]:block [&>div:last-child>a]:py-2 [&>div:last-child>a]:text-[0.71rem] [&>div:last-child>a]:[overflow-wrap:anywhere]">
-        <div className="max-sm:col-span-full [&>a]:text-white [&>a>svg]:text-[#ceaa72] [&>a>span>span]:text-[#ceaa72] [&>p]:mt-[22px] [&>p]:max-w-[260px] [&>p]:text-[0.76rem] [&>p]:text-[#a6ab9f] [&_a[aria-current]]:text-[#dbb982]">
+        <div className="max-sm:col-span-full [&>a]:text-white [&>a>svg]:text-[#ceaa72] [&>a>span>span]:text-[#ceaa72] [&>p]:mt-[22px] [&>p]:max-w-[260px] [&>p]:text-[0.76rem] [&>p]:text-[#a6ab9f]">
           <Brand />
           <p>{t("footer.description")}</p>
-          <LanguageSwitcher />
+          <LanguageSwitcher placement="top" />
         </div>
         <div>
           <h2>{t("footer.explore")}</h2>
