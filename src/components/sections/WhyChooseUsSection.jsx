@@ -7,27 +7,42 @@ export default function WhyChooseUsSection() {
   return (
     <section
       id="why"
-      className="why-section section"
+      className="bg-dark text-white py-[65px] tablet:py-[104px]"
       aria-labelledby="why-title"
     >
-      <div className="container why-layout">
+      <div className="mx-auto w-[calc(100%-40px)] max-w-[1280px] tablet:w-[calc(100%-64px)] desktop:w-[calc(100%-96px)] grid grid-cols-1 gap-10 tablet:grid-cols-2 tablet:gap-[60px] desktop:gap-[100px]">
         <div>
-          <p className="eyebrow">{t("why.eyebrow")}</p>
+          <p className="mb-[18px] text-[0.68rem] font-semibold leading-[1.8] tracking-[0.21em] text-[#ceaa72]">
+            {t("why.eyebrow")}
+          </p>
           <h2 id="why-title">
-            {t("why.title")} <em>{t("why.accent")}</em>
+            {t("why.title")}{" "}
+            <em className="block text-[#ceaa72]">{t("why.accent")}</em>
           </h2>
-          <p className="section-description">{t("why.description")}</p>
-          <a className="button button-outline" href="#contact">
+          <p className="mb-[30px] max-w-[420px] text-[0.87rem] text-[#b2b6ac]">
+            {t("why.description")}
+          </p>
+          <a
+            className="inline-flex min-h-[54px] items-center justify-between gap-7 border px-[25px] py-4 text-[0.82rem] font-semibold transition-colors duration-200 motion-reduce:transition-none border-[#898b7e] text-white hover:bg-[#30332e]"
+            href="#contact"
+          >
             {t("why.link")} <span aria-hidden="true">↗</span>
           </a>
         </div>
-        <div className="why-list">
+        <div>
           {["personal", "clarity", "communication"].map((id, index) => (
-            <article key={id}>
-              <span className="why-number">0{index + 1}</span>
+            <article
+              className="flex gap-[25px] border-b border-[#ffffff20] py-6 first:pt-0"
+              key={id}
+            >
+              <span className="font-display text-2xl text-[#ceaa72]">
+                0{index + 1}
+              </span>
               <div>
-                <h3>{t(`why.${id}.title`)}</h3>
-                <p>{t(`why.${id}.text`)}</p>
+                <h3 className="mb-2.5 text-[1.1rem]">{t(`why.${id}.title`)}</h3>
+                <p className="m-0 text-[0.8rem] text-[#b2b6ac]">
+                  {t(`why.${id}.text`)}
+                </p>
               </div>
             </article>
           ))}

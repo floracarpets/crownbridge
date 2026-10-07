@@ -16,6 +16,8 @@
     "react-i18next": "^17.0.16"
   },
   "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "tailwindcss": "^4.3.3",
     "vite": "^6.1.0"
   }
 }

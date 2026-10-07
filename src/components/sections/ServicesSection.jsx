@@ -8,22 +8,33 @@ export default function ServicesSection() {
   return (
     <section
       id="services"
-      className="services-section section"
+      className="bg-cream py-[65px] tablet:py-[104px]"
       aria-labelledby="services-title"
     >
-      <div className="container">
-        <div className="section-heading-row">
+      <div className="mx-auto w-[calc(100%-40px)] max-w-[1280px] tablet:w-[calc(100%-64px)] desktop:w-[calc(100%-96px)]">
+        <div className="mb-7 tablet:mb-9 tablet:flex tablet:items-end tablet:justify-between tablet:gap-[50px]">
           <div>
-            <p className="eyebrow">{t("services.eyebrow")}</p>
-            <h2 id="services-title">{t("services.title")}</h2>
+            <p className="mb-[18px] text-[0.68rem] font-semibold leading-[1.8] tracking-[0.21em] text-gold">
+              {t("services.eyebrow")}
+            </p>
+            <h2 className="mb-0" id="services-title">
+              {t("services.title")}
+            </h2>
           </div>
-          <p>{t("services.description")}</p>
+          <p className="mt-5 mb-0 max-w-[310px] text-[0.83rem] text-muted tablet:mt-0">
+            {t("services.description")}
+          </p>
         </div>
-        <div className="services-grid">
+        <div className="grid grid-cols-1 border border-[#e4dfd5] sm:grid-cols-2 desktop:grid-cols-4">
           {services.map((id, index) => (
-            <article className="service-card" key={id}>
-              <div className="service-top">
-                <span>{String(index + 1).padStart(2, "0")}</span>
+            <article
+              className="border-[#e4dfd5] bg-white px-6 pt-[30px] pb-6 not-first:border-t sm:not-first:border-t-0 sm:even:border-l sm:[&:nth-child(n+3)]:border-t desktop:not-first:border-l desktop:[&:nth-child(n+3)]:border-t-0"
+              key={id}
+            >
+              <div className="mb-[15px] flex items-start justify-between text-gold sm:mb-[30px]">
+                <span className="text-[0.65rem] text-[#8c8b82]">
+                  {String(index + 1).padStart(2, "0")}
+                </span>
                 <svg
                   viewBox="0 0 48 48"
                   width="42"
@@ -46,9 +57,16 @@ export default function ServicesSection() {
                   />
                 </svg>
               </div>
-              <h3>{t(`services.${id}.title`)}</h3>
-              <p>{t(`services.${id}.text`)}</p>
-              <a className="text-link" href="#contact">
+              <h3 className="font-display text-2xl">
+                {t(`services.${id}.title`)}
+              </h3>
+              <p className="text-[0.78rem] text-muted sm:min-h-[70px] desktop:min-h-[100px]">
+                {t(`services.${id}.text`)}
+              </p>
+              <a
+                className="inline-flex min-h-11 items-center gap-[15px] text-[0.69rem] font-semibold text-[#715322] hover:underline hover:underline-offset-[5px]"
+                href="#contact"
+              >
                 {t("services.link")} <span aria-hidden="true">↗</span>
               </a>
             </article>

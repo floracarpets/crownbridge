@@ -18,8 +18,11 @@ export default function ContactForm() {
     setPrepared(true);
   }
   return (
-    <form className="contact-form" onSubmit={submit}>
-      <div className="form-row">
+    <form
+      className="border border-[#e8e3da] bg-white p-5 sm:p-[26px] tablet:p-9 [&_label]:mb-5 [&_label]:block [&_label]:text-[0.72rem] [&_button]:w-full"
+      onSubmit={submit}
+    >
+      <div className="grid grid-cols-1 gap-0 sm:grid-cols-2 sm:gap-[22px]">
         <label>
           {t("contact.name")}
           <input name="name" autoComplete="name" required maxLength={120} />
@@ -35,7 +38,7 @@ export default function ContactForm() {
           />
         </label>
       </div>
-      <div className="form-row">
+      <div className="grid grid-cols-1 gap-0 sm:grid-cols-2 sm:gap-[22px]">
         <label>
           {t("contact.phone")}
           <input name="phone" type="tel" autoComplete="tel" maxLength={40} />
@@ -61,11 +64,11 @@ export default function ContactForm() {
           placeholder={t("contact.placeholder")}
         />
       </label>
-      <p className="form-note" id="email-note">
+      <p className="text-[0.68rem] text-muted" id="email-note">
         {t(company.email ? "contact.emailNote" : "contact.pendingNote")}
       </p>
       <button
-        className="button button-gold"
+        className="inline-flex min-h-[54px] items-center justify-between gap-7 border border-transparent px-[25px] py-4 text-[0.82rem] font-semibold transition-colors duration-200 motion-reduce:transition-none bg-[#bd965a] text-[#161611] hover:bg-[#d0ad76]"
         type="submit"
         disabled={!company.email}
         aria-describedby="email-note"
