@@ -58,7 +58,7 @@ export default function LanguageSwitcher({
         }}
       >
         <summary
-          className="flex min-h-11 cursor-pointer list-none items-center gap-2 bg-transparent p-0 text-[0.72rem] font-medium text-current transition-colors hover:text-gold motion-reduce:transition-none [&::-webkit-details-marker]:hidden"
+          className="flex min-h-11 cursor-pointer list-none items-center gap-2 bg-transparent p-0 text-ui font-medium text-current transition-colors hover:text-gold motion-reduce:transition-none [&::-webkit-details-marker]:hidden"
           aria-label={`${t("navigation.language")}: ${current.label}`}
         >
           <span className="text-base leading-none" aria-hidden="true">
@@ -86,7 +86,7 @@ export default function LanguageSwitcher({
           {languages.map(({ code, label, flag }) => (
             <li key={code}>
               <a
-                className={`flex min-h-11 items-center gap-2.5 rounded-lg px-3 py-2 text-[0.78rem] hover:bg-cream focus-visible:outline-offset-0 ${current.code === code ? "bg-cream font-semibold text-[#715322]" : "text-dark"}`}
+                className={`flex min-h-11 items-center gap-2.5 rounded-lg px-3 py-2 text-body hover:bg-cream focus-visible:outline-offset-0 ${current.code === code ? "bg-cream font-semibold text-[#715322]" : "text-dark"}`}
                 href={`${localizedPath(location.pathname, code)}${location.search}${location.hash}`}
                 lang={code}
                 hrefLang={code}

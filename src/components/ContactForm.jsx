@@ -19,7 +19,7 @@ export default function ContactForm() {
   }
   return (
     <form
-      className="border border-[#e8e3da] bg-white p-5 sm:p-[26px] tablet:p-9 [&_label]:mb-5 [&_label]:block [&_label]:text-[0.72rem] [&_button]:w-full"
+      className="border border-[#e8e3da] bg-white p-5 sm:p-[26px] tablet:p-9 [&_label]:mb-5 [&_label]:block [&_label]:text-ui [&_button]:w-full"
       onSubmit={submit}
     >
       <div className="grid grid-cols-1 gap-0 sm:grid-cols-2 sm:gap-[22px]">
@@ -64,11 +64,11 @@ export default function ContactForm() {
           placeholder={t("contact.placeholder")}
         />
       </label>
-      <p className="text-[0.68rem] text-muted" id="email-note">
+      <p className="text-caption text-muted" id="email-note">
         {t(company.email ? "contact.emailNote" : "contact.pendingNote")}
       </p>
       <button
-        className="inline-flex min-h-[54px] items-center justify-between gap-7 border border-transparent px-[25px] py-4 text-[0.82rem] font-semibold transition-colors duration-200 motion-reduce:transition-none bg-[#bd965a] text-[#161611] hover:bg-[#d0ad76]"
+        className="inline-flex min-h-[54px] items-center justify-between gap-7 border border-transparent px-[25px] py-4 text-body font-semibold transition-colors duration-200 motion-reduce:transition-none bg-[#bd965a] text-[#161611] hover:bg-[#d0ad76]"
         type="submit"
         disabled={!company.email}
         aria-describedby="email-note"

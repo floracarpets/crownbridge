@@ -5,7 +5,7 @@ export default function Brand() {
   const { t } = useTranslation();
   return (
     <a
-      className="inline-flex min-h-11 shrink-0 items-center gap-[9px] [&>svg]:w-8 [&>svg]:shrink-0 [&>svg]:text-gold sm:[&>svg]:w-9 desktop:[&>svg]:w-11 [&>span]:font-display [&>span]:text-base sm:[&>span]:text-[1.05rem] desktop:[&>span]:text-[1.2rem] [&>span]:tracking-[-0.04em] [&_small]:mt-[5px] [&_small]:block [&_small]:text-center [&_small]:font-sans [&_small]:text-[0.46rem] [&_small]:tracking-[0.36em]"
+      className="inline-flex min-h-11 shrink-0 items-center gap-[9px] [&>svg]:w-8 [&>svg]:shrink-0 [&>svg]:text-gold sm:[&>svg]:w-9 desktop:[&>svg]:w-11 [&>span]:font-display [&>span]:text-base sm:[&>span]:text-[1.05rem] desktop:[&>span]:text-[1.2rem] [&>span]:tracking-[-0.04em] [&_small]:mt-[5px] [&_small]:block [&_small]:text-center [&_small]:font-sans [&_small]:text-brand-caption [&_small]:tracking-[0.36em]"
       href="#home"
       aria-label={t("navigation.home")}
     >

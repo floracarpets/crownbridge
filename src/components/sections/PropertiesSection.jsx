@@ -15,7 +15,7 @@ export default function PropertiesSection() {
     >
       <div className="mb-7 tablet:mb-9 tablet:flex tablet:items-end tablet:justify-between tablet:gap-[50px]">
         <div>
-          <p className="mb-[18px] text-[0.68rem] font-semibold leading-[1.8] tracking-[0.21em] text-gold">
+          <p className="mb-[18px] text-caption font-semibold leading-[1.8] tracking-[0.21em] text-gold">
             {t("properties.eyebrow")}
           </p>
           <h2 className="mb-0" id="properties-title">
@@ -23,13 +23,13 @@ export default function PropertiesSection() {
           </h2>
         </div>
         <a
-          className="mt-5 tablet:mt-0 inline-flex min-h-11 items-center gap-6 text-[0.8rem] font-semibold text-[#715322] hover:underline hover:underline-offset-[5px]"
+          className="mt-5 tablet:mt-0 inline-flex min-h-11 items-center gap-6 text-body font-semibold text-[#715322] hover:underline hover:underline-offset-[5px]"
           href="#contact"
         >
           {t("properties.link")} <span aria-hidden="true">↗</span>
         </a>
       </div>
-      <p className="mb-7 max-w-[800px] text-[0.75rem] text-muted">
+      <p className="mb-7 max-w-[800px] text-ui text-muted">
         {t("properties.notice")}
       </p>
       <div className="grid grid-cols-1 gap-7 tablet:grid-cols-3 tablet:gap-4 desktop:gap-[26px]">
@@ -44,22 +44,22 @@ export default function PropertiesSection() {
                 height="667"
                 loading="lazy"
               />
-              <span className="absolute top-[18px] left-[18px] bg-[#ffffffed] px-3 py-2 text-[0.61rem] text-[#574321]">
+              <span className="absolute top-[18px] left-[18px] bg-[#ffffffed] px-3 py-2 text-caption text-[#574321]">
                 {t("properties.illustration")}
               </span>
             </div>
             <div className="p-5 desktop:p-[25px]">
-              <p className="mb-2.5 text-[0.59rem] font-semibold leading-[1.8] tracking-[0.21em] text-gold">
+              <p className="mb-2.5 text-caption font-semibold leading-[1.8] tracking-[0.21em] text-gold">
                 {t(`properties.${property.id}.category`)}
               </p>
               <h3 className="mb-3 font-display text-[1.6rem] tablet:text-[1.3rem] desktop:text-[1.6rem]">
                 {t(`properties.${property.id}.title`)}
               </h3>
-              <p className="text-[0.8rem] text-muted">
+              <p className="text-body text-muted">
                 {t(`properties.${property.id}.text`)}
               </p>
               <details className="group/details">
-                <summary className="flex min-h-11 cursor-pointer list-none items-center justify-between border-t border-[#e8e3da] pt-4 pb-[5px] text-[0.75rem] [&::-webkit-details-marker]:hidden">
+                <summary className="flex min-h-11 cursor-pointer list-none items-center justify-between border-t border-[#e8e3da] pt-4 pb-[5px] text-ui [&::-webkit-details-marker]:hidden">
                   {t("properties.details")}{" "}
                   <span
                     className="text-[1.2rem] text-gold group-open/details:rotate-45"
@@ -69,7 +69,7 @@ export default function PropertiesSection() {
                   </span>
                 </summary>
                 <dl className="my-4">
-                  <div className="my-2.5 flex justify-between gap-4 text-[0.75rem]">
+                  <div className="my-2.5 flex justify-between gap-4 text-ui">
                     <dt className="text-muted">{t("properties.type")}</dt>
                     <dd className="text-right">
                       {t(`properties.types.${property.type}`)}
@@ -77,7 +77,7 @@ export default function PropertiesSection() {
                   </div>
                   {property.bedrooms !== null && (
                     <>
-                      <div className="my-2.5 flex justify-between gap-4 text-[0.75rem]">
+                      <div className="my-2.5 flex justify-between gap-4 text-ui">
                         <dt className="text-muted">
                           {t("properties.bedrooms")}
                         </dt>
@@ -85,7 +85,7 @@ export default function PropertiesSection() {
                           {number.format(property.bedrooms)}
                         </dd>
                       </div>
-                      <div className="my-2.5 flex justify-between gap-4 text-[0.75rem]">
+                      <div className="my-2.5 flex justify-between gap-4 text-ui">
                         <dt className="text-muted">{t("properties.area")}</dt>
                         <dd className="text-right">
                           {number.format(property.area)} m²
@@ -93,7 +93,7 @@ export default function PropertiesSection() {
                       </div>
                     </>
                   )}
-                  <div className="my-2.5 flex justify-between gap-4 text-[0.75rem]">
+                  <div className="my-2.5 flex justify-between gap-4 text-ui">
                     <dt className="text-muted">{t("properties.status")}</dt>
                     <dd className="text-right">
                       {t("properties.exampleOnly")}
@@ -101,7 +101,7 @@ export default function PropertiesSection() {
                   </div>
                 </dl>
                 <a
-                  className="inline-flex min-h-11 items-center gap-6 text-[0.8rem] font-semibold text-[#715322] hover:underline hover:underline-offset-[5px]"
+                  className="inline-flex min-h-11 items-center gap-6 text-body font-semibold text-[#715322] hover:underline hover:underline-offset-[5px]"
                   href="#contact"
                 >
                   {t("properties.enquire")} <span aria-hidden="true">↗</span>

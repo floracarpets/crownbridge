@@ -42,7 +42,7 @@ export default function Header() {
         >
           {sections.map((id) => (
             <a
-              className="flex min-h-11 items-center text-[0.72rem] whitespace-nowrap hover:text-[#715322]"
+              className="flex min-h-11 items-center text-ui whitespace-nowrap hover:text-[#715322]"
               key={id}
               href={`#${id}`}
             >
@@ -155,7 +155,7 @@ export default function Header() {
               >
                 <span>{t(`nav.${id}`)}</span>
                 <span
-                  className="font-sans text-[0.7rem] tracking-wider text-gold"
+                  className="font-sans text-ui tracking-wider text-gold"
                   aria-hidden="true"
                 >
                   0{index + 1}

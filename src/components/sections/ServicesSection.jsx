@@ -14,14 +14,14 @@ export default function ServicesSection() {
       <div className="mx-auto w-[calc(100%-40px)] max-w-[1280px] tablet:w-[calc(100%-64px)] desktop:w-[calc(100%-96px)]">
         <div className="mb-7 tablet:mb-9 tablet:flex tablet:items-end tablet:justify-between tablet:gap-[50px]">
           <div>
-            <p className="mb-[18px] text-[0.68rem] font-semibold leading-[1.8] tracking-[0.21em] text-gold">
+            <p className="mb-[18px] text-caption font-semibold leading-[1.8] tracking-[0.21em] text-gold">
               {t("services.eyebrow")}
             </p>
             <h2 className="mb-0" id="services-title">
               {t("services.title")}
             </h2>
           </div>
-          <p className="mt-5 mb-0 max-w-[310px] text-[0.83rem] text-muted tablet:mt-0">
+          <p className="mt-5 mb-0 max-w-[310px] text-body text-muted tablet:mt-0">
             {t("services.description")}
           </p>
         </div>
@@ -32,7 +32,7 @@ export default function ServicesSection() {
               key={id}
             >
               <div className="mb-[15px] flex items-start justify-between text-gold sm:mb-[30px]">
-                <span className="text-[0.65rem] text-[#8c8b82]">
+                <span className="text-caption text-[#8c8b82]">
                   {String(index + 1).padStart(2, "0")}
                 </span>
                 <svg
@@ -60,11 +60,11 @@ export default function ServicesSection() {
               <h3 className="font-display text-2xl">
                 {t(`services.${id}.title`)}
               </h3>
-              <p className="text-[0.78rem] text-muted sm:min-h-[70px] desktop:min-h-[100px]">
+              <p className="text-body text-muted sm:min-h-[70px] desktop:min-h-[100px]">
                 {t(`services.${id}.text`)}
               </p>
               <a
-                className="inline-flex min-h-11 items-center gap-[15px] text-[0.69rem] font-semibold text-[#715322] hover:underline hover:underline-offset-[5px]"
+                className="inline-flex min-h-11 items-center gap-[15px] text-ui font-semibold text-[#715322] hover:underline hover:underline-offset-[5px]"
                 href="#contact"
               >
                 {t("services.link")} <span aria-hidden="true">↗</span>

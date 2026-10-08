@@ -18,19 +18,19 @@ export default function AboutSection() {
           height="667"
           loading="lazy"
         />
-        <div className="absolute right-9 bottom-9 left-[14px] flex items-center gap-3 bg-[#ffffffed] p-3 text-[0.72rem] sm:right-12 sm:bottom-[45px] sm:left-6 sm:px-5 sm:py-[17px]">
+        <div className="absolute right-9 bottom-9 left-[14px] flex items-center gap-3 bg-[#ffffffed] p-3 text-ui sm:right-12 sm:bottom-[45px] sm:left-6 sm:px-5 sm:py-[17px]">
           <span className="h-px w-[22px] shrink-0 bg-gold" />
           <span>{t("about.imageLabel")}</span>
         </div>
         <div
-          className="absolute top-10 -right-[14px] bg-dark p-6 text-center font-display text-[2.3rem] text-[#dbc298] tablet:-right-[23px] [&>span]:mt-2 [&>span]:block [&>span]:font-sans [&>span]:text-[0.43rem] [&>span]:tracking-[0.2em]"
+          className="absolute top-10 -right-[14px] bg-dark p-6 text-center font-display text-[2.3rem] text-[#dbc298] tablet:-right-[23px] [&>span]:mt-2 [&>span]:block [&>span]:font-sans [&>span]:text-caption [&>span]:tracking-[0.2em]"
           aria-hidden="true"
         >
           CB<span>REAL ESTATE</span>
         </div>
       </div>
-      <div className="[&>p:not(:first-child)]:text-[0.85rem] [&>p:not(:first-child)]:text-muted max-tablet:[&_h2]:max-w-[480px]">
-        <p className="mb-[18px] text-[0.68rem] font-semibold leading-[1.8] tracking-[0.21em] text-gold">
+      <div className="[&>p:not(:first-child)]:text-body [&>p:not(:first-child)]:text-muted max-tablet:[&_h2]:max-w-[480px]">
+        <p className="mb-[18px] text-caption font-semibold leading-[1.8] tracking-[0.21em] text-gold">
           {t("about.eyebrow")}
         </p>
         <h2 id="about-title">
@@ -38,13 +38,13 @@ export default function AboutSection() {
         </h2>
         <p>{t("about.text")}</p>
         <p>{t("about.text2")}</p>
-        <div className="mt-7 mb-3 flex flex-wrap gap-x-[22px] gap-y-2.5 border-y border-[#e8e3da] py-5 text-[0.65rem] [&>span]:before:mr-1.5 [&>span]:before:text-gold [&>span]:before:content-['✧']">
+        <div className="mt-7 mb-3 flex flex-wrap gap-x-[22px] gap-y-2.5 border-y border-[#e8e3da] py-5 text-caption [&>span]:before:mr-1.5 [&>span]:before:text-gold [&>span]:before:content-['✧']">
           <span>{t("about.value1")}</span>
           <span>{t("about.value2")}</span>
           <span>{t("about.value3")}</span>
         </div>
         <a
-          className="inline-flex min-h-11 items-center gap-6 text-[0.8rem] font-semibold text-[#715322] hover:underline hover:underline-offset-[5px]"
+          className="inline-flex min-h-11 items-center gap-6 text-body font-semibold text-[#715322] hover:underline hover:underline-offset-[5px]"
           href="#why"
         >
           {t("about.link")} <span aria-hidden="true">↗</span>

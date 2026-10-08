@@ -28,7 +28,7 @@ export default function ProcessSection() {
             <h3 className="text-base tablet:text-xl">
               {t(`process.${id}.title`)}
             </h3>
-            <p className="text-[0.82rem] text-muted">
+            <p className="text-body text-muted">
               {t(`process.${id}.text`)}
             </p>
           </article>
