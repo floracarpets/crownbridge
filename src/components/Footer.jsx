@@ -53,7 +53,7 @@ export default function Footer() {
             </a>
           ) : (
             <p className="mt-3 text-ui text-[#a6ab9f]">
-              {t("contact.phonePending")}
+              {t("contact.phoneNumber")}
             </p>
           )}
           <div className="mt-[18px] flex flex-wrap gap-[14px] text-caption [&>span]:text-[#a6ab9f] [&>a]:inline-flex [&>a]:min-h-11 [&>a]:items-center">

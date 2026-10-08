@@ -40,7 +40,7 @@ export default function ContactSection() {
                     {company.phone}
                   </a>
                 ) : (
-                  t("contact.phonePending")
+                  t("contact.phoneNumber")
                 )}
               </dd>
             </div>
