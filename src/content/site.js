@@ -2,7 +2,7 @@
 // Keep contact facts separate from translated interface copy.
 export const company = {
   email: "info@cronwbridgerealestate.com",
-  phone: null,
+  phone: "+971503386590",
   address: null,
   social: { instagram: null, linkedin: null, facebook: null },
 };
