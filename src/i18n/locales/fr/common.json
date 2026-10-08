@@ -153,11 +153,15 @@
     "emailPending": "Adresse e-mail bientôt disponible",
     "phoneNumber": "+971503386590",
     "addressPending": "Dubaï, Émirats arabes unis · Adresse du bureau à confirmer",
-    "emailNote": "Ce formulaire ouvre un brouillon dans votre application e-mail. Vérifiez-le puis envoyez-le depuis cette application.",
+    "emailNote": "Envoyez votre demande directement à notre équipe avec ce formulaire.",
     "pendingNote": "Notre contact e-mail sera bientôt disponible.",
-    "send": "Préparer un e-mail",
-    "prepared": "Votre brouillon est prêt dans votre application e-mail. Envoyez-le depuis cette application pour terminer votre demande.",
-    "emailLabel": "E-mail"
+    "send": "Envoyer la demande",
+    "emailLabel": "E-mail",
+    "sending": "Envoi en cours…",
+    "sent": "Merci. Votre demande a été transmise à notre équipe.",
+    "error": "Nous n’avons pas pu confirmer l’envoi. Vos informations sont conservées dans le formulaire. Réessayez ou contactez-nous par e-mail.",
+    "rateLimited": "Trop de demandes. Veuillez attendre une minute avant de réessayer.",
+    "emailInstead": "Contactez-nous par e-mail"
   },
   "footer": {
     "description": "Une nouvelle perspective sur l’immobilier. Une approche personnelle pour votre prochain chapitre.",

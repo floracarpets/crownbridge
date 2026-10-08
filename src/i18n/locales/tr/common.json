@@ -153,11 +153,15 @@
     "emailPending": "E-posta bilgileri yakında",
     "phoneNumber": "+971503386590",
     "addressPending": "Dubai, Birleşik Arap Emirlikleri · Ofis adresi teyit edilecek",
-    "emailNote": "Bu form e-posta uygulamanızda bir taslak açar. Taslağı kontrol edip oradan gönderin.",
+    "emailNote": "Bu form ile talebinizi doğrudan ekibimize gönderin.",
     "pendingNote": "E-posta iletişimimiz yakında hazır olacak.",
-    "send": "E-posta taslağı hazırlayın",
-    "prepared": "Taslağınız e-posta uygulamanızda hazır. Talebinizi tamamlamak için oradan gönderin.",
-    "emailLabel": "E-posta"
+    "send": "Talebi gönder",
+    "emailLabel": "E-posta",
+    "sending": "Gönderiliyor…",
+    "sent": "Teşekkür ederiz. Talebiniz ekibimize iletildi.",
+    "error": "Gönderiminizi doğrulayamadık. Bilgileriniz formda duruyor. Lütfen tekrar deneyin veya bize doğrudan e-posta gönderin.",
+    "rateLimited": "Çok fazla talep gönderildi. Lütfen bir dakika bekleyip tekrar deneyin.",
+    "emailInstead": "Bize doğrudan e-posta gönderin"
   },
   "footer": {
     "description": "Gayrimenkule yeni bir bakış. Yeni başlangıcınıza kişisel bir yaklaşım.",

@@ -4,3 +4,6 @@ dist/
 skill
 .agents/
 .codex/
+.wrangler/
+.dev.vars
+.dev.vars.*

@@ -1,0 +1,29 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "crownbridge",
+  "main": "worker/index.js",
+  "compatibility_date": "2026-10-08",
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS",
+    "run_worker_first": ["/api/*"]
+  },
+  "vars": {
+    // This sender domain must be onboarded in Cloudflare Email Service.
+    "CONTACT_FROM": "info@cronwbridgerealestate.com",
+    "CONTACT_TO": "info@cronwbridgerealestate.com"
+  },
+  "send_email": [
+    {
+      "name": "EMAIL",
+      "destination_address": "info@cronwbridgerealestate.com"
+    }
+  ],
+  "ratelimits": [
+    {
+      "name": "CONTACT_RATE_LIMITER",
+      "namespace_id": "503386590",
+      "simple": { "limit": 5, "period": 60 }
+    }
+  ]
+}

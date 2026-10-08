@@ -153,11 +153,15 @@
     "emailPending": "Email details coming soon",
     "phoneNumber": "+971503386590",
     "addressPending": "Dubai, United Arab Emirates · Office address to be confirmed",
-    "emailNote": "This opens your email app with your enquiry. Review the draft and send it from there.",
+    "emailNote": "Send your enquiry directly to our team using this form.",
     "pendingNote": "Our email contact will be available soon.",
-    "send": "Prepare email enquiry",
-    "prepared": "Your email draft is ready in your email app. Please send it there to complete your enquiry.",
-    "emailLabel": "Email"
+    "send": "Send enquiry",
+    "emailLabel": "Email",
+    "sending": "Sending…",
+    "sent": "Thank you. Your enquiry has been submitted to our team.",
+    "error": "We could not confirm your submission. Your details are still here. Please try again or email us directly.",
+    "rateLimited": "Too many submissions. Please wait a minute and try again.",
+    "emailInstead": "Email us directly"
   },
   "footer": {
     "description": "A fresh perspective on real estate. A personal approach to your next chapter.",
