@@ -48,7 +48,8 @@ export async function contact(request, env) {
   if (Number(request.headers.get("content-length")) > MAX_BODY_BYTES) {
     return json({ ok: false }, 413);
   }
-  if (!env.EMAIL?.send || !env.CONTACT_RATE_LIMITER?.limit ||
+  if (typeof env.RESEND_API_KEY !== "string" || !env.RESEND_API_KEY.trim() ||
+      !env.CONTACT_RATE_LIMITER?.limit ||
       !emailPattern.test(env.CONTACT_FROM || "") || controls.test(env.CONTACT_FROM) ||
       !emailPattern.test(env.CONTACT_TO || "") || controls.test(env.CONTACT_TO)) {
     return json({ ok: false, code: "unavailable" }, 503);
@@ -86,13 +87,26 @@ export async function contact(request, env) {
       return json({ ok: false, code: "invalid" }, 400);
     }
     const subjects = { buy: "Buying", sell: "Selling", rent: "Renting", offplan: "Off-plan" };
-    await env.EMAIL.send({
-      from: { email: env.CONTACT_FROM, name: "Crownbridge Website" },
-      to: env.CONTACT_TO,
-      replyTo: fields.email,
-      subject: `Website enquiry: ${subjects[fields.subject]}`,
-      text: `Name: ${fields.name}\nEmail: ${fields.email}\nPhone: ${fields.phone || "Not provided"}\nInterest: ${subjects[fields.subject]}\n\n${fields.message}`,
+    const response = await fetch("https://api.resend.com/emails", {
+      method: "POST",
+      headers: {
+        Authorization: `Bearer ${env.RESEND_API_KEY.trim()}`,
+        "Content-Type": "application/json",
+      },
+      signal: AbortSignal.timeout(10000),
+      body: JSON.stringify({
+        from: `Crownbridge Website <${env.CONTACT_FROM}>`,
+        to: [env.CONTACT_TO],
+        reply_to: fields.email,
+        subject: `Website enquiry: ${subjects[fields.subject]}`,
+        text: `Name: ${fields.name}\nEmail: ${fields.email}\nPhone: ${fields.phone || "Not provided"}\nInterest: ${subjects[fields.subject]}\n\n${fields.message}`,
+      }),
     });
+    if (!response.ok) return json({ ok: false, code: "unavailable" }, 503);
+    const result = await response.json().catch(() => null);
+    if (typeof result?.id !== "string" || !result.id) {
+      return json({ ok: false, code: "unavailable" }, 503);
+    }
     return json({ ok: true });
   } catch (error) {
     // Do not log visitor details or expose provider errors to the browser.

@@ -9,16 +9,10 @@
     "run_worker_first": ["/api/*"]
   },
   "vars": {
-    // This sender domain must be onboarded in Cloudflare Email Service.
+    // This sender domain must be verified in Resend.
     "CONTACT_FROM": "info@cronwbridgerealestate.com",
     "CONTACT_TO": "info@cronwbridgerealestate.com"
   },
-  "send_email": [
-    {
-      "name": "EMAIL",
-      "destination_address": "info@cronwbridgerealestate.com"
-    }
-  ],
   "ratelimits": [
     {
       "name": "CONTACT_RATE_LIMITER",
