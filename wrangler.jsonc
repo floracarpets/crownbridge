@@ -6,18 +6,18 @@
   "assets": {
     "directory": "./dist",
     "binding": "ASSETS",
-    "run_worker_first": ["/api/*"]
+    "run_worker_first": ["/api/*"],
   },
   "vars": {
     // This sender domain must be verified in Resend.
-    "CONTACT_FROM": "info@cronwbridgerealestate.com",
-    "CONTACT_TO": "info@cronwbridgerealestate.com"
+    "CONTACT_FROM": "info@crownbridgerealestate.com",
+    "CONTACT_TO": "info@crownbridgerealestate.com",
   },
   "ratelimits": [
     {
       "name": "CONTACT_RATE_LIMITER",
       "namespace_id": "503386590",
-      "simple": { "limit": 5, "period": 60 }
-    }
-  ]
+      "simple": { "limit": 5, "period": 60 },
+    },
+  ],
 }

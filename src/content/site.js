@@ -1,7 +1,7 @@
 // Replace these null values with verified company details before publication.
 // Keep contact facts separate from translated interface copy.
 export const company = {
-  email: "info@cronwbridgerealestate.com",
+  email: "info@crownbridgerealestate.com",
   phone: "+971503386590",
   address: null,
   social: { instagram: null, linkedin: null, facebook: null },
