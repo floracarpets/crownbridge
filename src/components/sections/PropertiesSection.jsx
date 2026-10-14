@@ -1,6 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import { properties } from "../../content/site.js";
+import { properties, propertyTypes } from "../../content/site.js";
 import { formattingLocale } from "../../i18n/locales.js";
 
 export default function PropertiesSection() {
@@ -28,6 +28,23 @@ export default function PropertiesSection() {
         >
           {t("properties.link")} <span aria-hidden="true">↗</span>
         </a>
+      </div>
+      <div className="mb-9" aria-labelledby="property-types-title">
+        <h3 id="property-types-title" className="mb-4 text-ui font-semibold">
+          {t("properties.typesTitle")}
+        </h3>
+        <ul className="flex flex-wrap gap-3">
+          {propertyTypes.map((type) => (
+            <li key={type}>
+              <a
+                href="#contact"
+                className="inline-flex min-h-11 items-center rounded-sm border border-[#e8e3da] bg-cream px-4 py-2 text-ui text-[#715322] hover:border-gold hover:underline hover:underline-offset-[5px]"
+              >
+                {t(`properties.typeCategories.${type}`)}
+              </a>
+            </li>
+          ))}
+        </ul>
       </div>
       <p className="mb-7 max-w-[800px] text-ui text-muted">
         {t("properties.notice")}

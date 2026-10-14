@@ -46,7 +46,7 @@
   "services": {
     "eyebrow": "NELER YAPIYORUZ",
     "title": "Tek bir ortak. Daha çok olasılık.",
-    "description": "İlk sorunuzdan sonraki adımınıza kadar, gayrimenkulü birlikte daha anlaşılır kılalım.",
+    "description": "Daire, sıra ev, villa, ticari gayrimenkul, mağaza ve arsa alım, satım veya kiralama süreçlerinde size yardımcı oluyoruz.",
     "link": "Planlarınızı konuşalım",
     "buy": {
       "title": "Gayrimenkul alın",
@@ -100,6 +100,15 @@
       "title": "Yeni bir geleceğe bakın.",
       "text": "Geleceğin yaşam alanlarının olanaklarını keşfedin.",
       "alt": "Yeni proje fırsatlarını temsil eden Dubai silüeti"
+    },
+    "typesTitle": "Hizmet verdiğimiz gayrimenkul türleri",
+    "typeCategories": {
+      "apartment": "Daireler",
+      "townhouse": "Sıra evler",
+      "villa": "Villalar",
+      "commercial": "Ticari gayrimenkuller",
+      "retail": "Mağazalar",
+      "plot": "Arsalar"
     }
   },
   "why": {

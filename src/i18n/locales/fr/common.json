@@ -46,7 +46,7 @@
   "services": {
     "eyebrow": "NOS SERVICES",
     "title": "Un partenaire. Plus de possibilités.",
-    "description": "De votre première question à votre prochain projet, rendons l’immobilier plus simple ensemble.",
+    "description": "Nous vous accompagnons dans l’achat, la vente ou la location d’appartements, de maisons de ville, de villas, de biens commerciaux, de locaux de commerce et de terrains.",
     "link": "Parlons de vos projets",
     "buy": {
       "title": "Acheter un bien",
@@ -100,6 +100,15 @@
       "title": "Envisagez un nouvel horizon.",
       "text": "Explorez les possibilités des quartiers de demain.",
       "alt": "Vue de Dubaï illustrant de nouveaux programmes immobiliers"
+    },
+    "typesTitle": "Les types de biens que nous accompagnons",
+    "typeCategories": {
+      "apartment": "Appartements",
+      "townhouse": "Maisons de ville",
+      "villa": "Villas",
+      "commercial": "Biens commerciaux",
+      "retail": "Locaux de commerce",
+      "plot": "Terrains"
     }
   },
   "why": {

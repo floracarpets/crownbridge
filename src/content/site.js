@@ -3,7 +3,7 @@
 export const company = {
   email: "info@crownbridgerealestate.com",
   phone: "+971503386590",
-  address: null,
+  address: "CROWN BRIDGE REAL ESTATE L.L.C\nOffice No. S1-283, Dubai investment complex 1\nDubai, UAE",
   social: { instagram: null, linkedin: null, facebook: null },
 };
 
@@ -17,6 +17,15 @@ export const sections = [
   "contact",
 ];
 export const services = ["buy", "sell", "rent", "offplan"];
+
+export const propertyTypes = [
+  "apartment",
+  "townhouse",
+  "villa",
+  "commercial",
+  "retail",
+  "plot",
+];
 
 // Illustrative concepts only; replace with verified inventory before publication.
 export const properties = [

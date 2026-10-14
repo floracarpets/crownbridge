@@ -46,7 +46,7 @@ export default function ContactSection() {
             </div>
             <div>
               <dt>{t("contact.address")}</dt>
-              <dd>{company.address || t("contact.addressPending")}</dd>
+              <dd className="whitespace-pre-line">{company.address || t("contact.addressPending")}</dd>
             </div>
           </dl>
         </div>

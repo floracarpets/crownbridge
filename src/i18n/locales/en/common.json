@@ -46,7 +46,7 @@
   "services": {
     "eyebrow": "WHAT WE DO",
     "title": "One partner. More possibilities.",
-    "description": "From your first question to your next move, let’s make property feel simpler.",
+    "description": "We help you buy, sell, or rent apartments, townhouses, villas, commercial properties, retail spaces, and plots.",
     "link": "Let’s discuss your plans",
     "buy": {
       "title": "Buy a property",
@@ -100,6 +100,15 @@
       "title": "Look ahead to something new.",
       "text": "Explore the possibilities of tomorrow’s communities.",
       "alt": "Dubai skyline illustrating new development opportunities"
+    },
+    "typesTitle": "Property types we handle",
+    "typeCategories": {
+      "apartment": "Apartments",
+      "townhouse": "Townhouses",
+      "villa": "Villas",
+      "commercial": "Commercial properties",
+      "retail": "Retail spaces",
+      "plot": "Plots"
     }
   },
   "why": {

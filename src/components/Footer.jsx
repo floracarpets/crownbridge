@@ -43,7 +43,7 @@ export default function Footer() {
         </div>
         <div>
           <h2>{t("footer.connect")}</h2>
-          <address>{company.address || t("contact.addressPending")}</address>
+          <address className="whitespace-pre-line [overflow-wrap:anywhere]">{company.address || t("contact.addressPending")}</address>
           {company.email && (
             <a href={`mailto:${company.email}`}>{company.email}</a>
           )}
